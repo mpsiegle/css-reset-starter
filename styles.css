@@ -133,7 +133,7 @@ h2{
 }
 
 h3{
-    font-size: 1.17;
+    font-size: 1.17rem;
     font-weight: bold;
     margin: 1em 0;
 }
@@ -285,6 +285,10 @@ textarea{
     color: var(--dk-gray);
 }
 
+figure{
+    margin: 1em 140px;
+}
+
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
@@ -294,6 +298,7 @@ code{
 /* for the pre block */
 pre{
     font-family: var(--code-fonts);
+    margin: 1em 0;
 }
 
 pre code{
